@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-@main
+
 struct TDDSampleAppApp: App {
     var body: some Scene {
         WindowGroup {
