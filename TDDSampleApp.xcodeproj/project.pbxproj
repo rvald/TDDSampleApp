@@ -12,7 +12,7 @@
 		068DC0252B62F0AA00DE3F70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 068DC0242B62F0AA00DE3F70 /* Assets.xcassets */; };
 		068DC0282B62F0AA00DE3F70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 068DC0272B62F0AA00DE3F70 /* Preview Assets.xcassets */; };
 		068DC0322B62F0AA00DE3F70 /* TDDSampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068DC0312B62F0AA00DE3F70 /* TDDSampleAppTests.swift */; };
-		068DC04C2B62FC4700DE3F70 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068DC04B2B62FC4600DE3F70 /* Main.swift */; };
+		068DC04C2B62FC4700DE3F70 /* MainEntryPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068DC04B2B62FC4600DE3F70 /* MainEntryPoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +34,7 @@
 		068DC02D2B62F0AA00DE3F70 /* TDDSampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDSampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		068DC0312B62F0AA00DE3F70 /* TDDSampleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDSampleAppTests.swift; sourceTree = "<group>"; };
 		068DC04A2B62F69900DE3F70 /* TDDSampleAppTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TDDSampleAppTests.xctestplan; sourceTree = "<group>"; };
-		068DC04B2B62FC4600DE3F70 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		068DC04B2B62FC4600DE3F70 /* MainEntryPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainEntryPoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,7 @@
 				068DC0222B62F0A900DE3F70 /* ContentView.swift */,
 				068DC0242B62F0AA00DE3F70 /* Assets.xcassets */,
 				068DC0262B62F0AA00DE3F70 /* Preview Content */,
-				068DC04B2B62FC4600DE3F70 /* Main.swift */,
+				068DC04B2B62FC4600DE3F70 /* MainEntryPoint.swift */,
 			);
 			path = TDDSampleApp;
 			sourceTree = "<group>";
@@ -202,7 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				068DC04C2B62FC4700DE3F70 /* Main.swift in Sources */,
+				068DC04C2B62FC4700DE3F70 /* MainEntryPoint.swift in Sources */,
 				068DC0232B62F0A900DE3F70 /* ContentView.swift in Sources */,
 				068DC0212B62F0A900DE3F70 /* TDDSampleAppApp.swift in Sources */,
 			);
