@@ -10,6 +10,10 @@ import Foundation
 @main
 struct MainEntryPoint {
     static func main() {
-        TDDSampleAppApp.main()
+        if NSClassFromString("XCTestCase") == nil {
+            TDDSampleAppApp.main()
+        } else {
+            TestApp.main()
+        }
     }
 }

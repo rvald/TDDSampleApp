@@ -13,6 +13,7 @@
 		068DC0282B62F0AA00DE3F70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 068DC0272B62F0AA00DE3F70 /* Preview Assets.xcassets */; };
 		068DC0322B62F0AA00DE3F70 /* TDDSampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068DC0312B62F0AA00DE3F70 /* TDDSampleAppTests.swift */; };
 		068DC04C2B62FC4700DE3F70 /* MainEntryPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068DC04B2B62FC4600DE3F70 /* MainEntryPoint.swift */; };
+		068DC04E2B62FDE900DE3F70 /* TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068DC04D2B62FDE900DE3F70 /* TestApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		068DC0312B62F0AA00DE3F70 /* TDDSampleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDSampleAppTests.swift; sourceTree = "<group>"; };
 		068DC04A2B62F69900DE3F70 /* TDDSampleAppTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TDDSampleAppTests.xctestplan; sourceTree = "<group>"; };
 		068DC04B2B62FC4600DE3F70 /* MainEntryPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainEntryPoint.swift; sourceTree = "<group>"; };
+		068DC04D2B62FDE900DE3F70 /* TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				068DC0242B62F0AA00DE3F70 /* Assets.xcassets */,
 				068DC0262B62F0AA00DE3F70 /* Preview Content */,
 				068DC04B2B62FC4600DE3F70 /* MainEntryPoint.swift */,
+				068DC04D2B62FDE900DE3F70 /* TestApp.swift */,
 			);
 			path = TDDSampleApp;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				068DC04C2B62FC4700DE3F70 /* MainEntryPoint.swift in Sources */,
+				068DC04E2B62FDE900DE3F70 /* TestApp.swift in Sources */,
 				068DC0232B62F0A900DE3F70 /* ContentView.swift in Sources */,
 				068DC0212B62F0A900DE3F70 /* TDDSampleAppApp.swift in Sources */,
 			);
