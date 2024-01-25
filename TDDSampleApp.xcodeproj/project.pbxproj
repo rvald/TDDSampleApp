@@ -11,9 +11,9 @@
 		068DC0232B62F0A900DE3F70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068DC0222B62F0A900DE3F70 /* ContentView.swift */; };
 		068DC0252B62F0AA00DE3F70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 068DC0242B62F0AA00DE3F70 /* Assets.xcassets */; };
 		068DC0282B62F0AA00DE3F70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 068DC0272B62F0AA00DE3F70 /* Preview Assets.xcassets */; };
-		068DC0322B62F0AA00DE3F70 /* TDDSampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068DC0312B62F0AA00DE3F70 /* TDDSampleAppTests.swift */; };
 		068DC04C2B62FC4700DE3F70 /* MainEntryPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068DC04B2B62FC4600DE3F70 /* MainEntryPoint.swift */; };
 		068DC04E2B62FDE900DE3F70 /* TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068DC04D2B62FDE900DE3F70 /* TestApp.swift */; };
+		068DC0502B63074700DE3F70 /* PlaceholderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068DC04F2B63074700DE3F70 /* PlaceholderTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,10 +33,10 @@
 		068DC0242B62F0AA00DE3F70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		068DC0272B62F0AA00DE3F70 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		068DC02D2B62F0AA00DE3F70 /* TDDSampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDSampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		068DC0312B62F0AA00DE3F70 /* TDDSampleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDSampleAppTests.swift; sourceTree = "<group>"; };
 		068DC04A2B62F69900DE3F70 /* TDDSampleAppTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TDDSampleAppTests.xctestplan; sourceTree = "<group>"; };
 		068DC04B2B62FC4600DE3F70 /* MainEntryPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainEntryPoint.swift; sourceTree = "<group>"; };
 		068DC04D2B62FDE900DE3F70 /* TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApp.swift; sourceTree = "<group>"; };
+		068DC04F2B63074700DE3F70 /* PlaceholderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +100,7 @@
 		068DC0302B62F0AA00DE3F70 /* TDDSampleAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				068DC0312B62F0AA00DE3F70 /* TDDSampleAppTests.swift */,
+				068DC04F2B63074700DE3F70 /* PlaceholderTests.swift */,
 			);
 			path = TDDSampleAppTests;
 			sourceTree = "<group>";
@@ -158,6 +158,7 @@
 					};
 					068DC02C2B62F0AA00DE3F70 = {
 						CreatedOnToolsVersion = 15.1;
+						LastSwiftMigration = 1510;
 						TestTargetID = 068DC01C2B62F0A900DE3F70;
 					};
 				};
@@ -216,7 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				068DC0322B62F0AA00DE3F70 /* TDDSampleAppTests.swift in Sources */,
+				068DC0502B63074700DE3F70 /* PlaceholderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +414,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XJAWX5FV94;
@@ -422,6 +424,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = developer.TDDSampleAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDDSampleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TDDSampleApp";
@@ -433,6 +436,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XJAWX5FV94;
