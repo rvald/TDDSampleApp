@@ -44,6 +44,7 @@
 		068DC0372B62F0AA00DE3F70 /* TDDSampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDSampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		068DC03B2B62F0AA00DE3F70 /* TDDSampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDSampleAppUITests.swift; sourceTree = "<group>"; };
 		068DC03D2B62F0AA00DE3F70 /* TDDSampleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDSampleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		068DC04A2B62F69900DE3F70 /* TDDSampleAppTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TDDSampleAppTests.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +75,7 @@
 		068DC0142B62F0A900DE3F70 = {
 			isa = PBXGroup;
 			children = (
+				068DC04A2B62F69900DE3F70 /* TDDSampleAppTests.xctestplan */,
 				068DC01F2B62F0A900DE3F70 /* TDDSampleApp */,
 				068DC0302B62F0AA00DE3F70 /* TDDSampleAppTests */,
 				068DC03A2B62F0AA00DE3F70 /* TDDSampleAppUITests */,

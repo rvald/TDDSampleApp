@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "414EAA4F-A206-4217-858C-946C4CBA9230",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:TDDSampleApp.xcodeproj",
+      "identifier" : "068DC01C2B62F0A900DE3F70",
+      "name" : "TDDSampleApp"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:TDDSampleApp.xcodeproj",
+        "identifier" : "068DC02C2B62F0AA00DE3F70",
+        "name" : "TDDSampleAppTests"
+      }
+    }
+  ],
+  "version" : 1
+}
