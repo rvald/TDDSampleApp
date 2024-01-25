@@ -9,11 +9,16 @@ import Foundation
 
 @main
 struct MainEntryPoint {
+    
     static func main() {
-        if NSClassFromString("XCTestCase") == nil {
+        if isProduction() {
             TDDSampleAppApp.main()
         } else {
             TestApp.main()
         }
+    }
+    
+    private static func isProduction() -> Bool {
+        return NSClassFromString("XCTestCase") == nil
     }
 }
