@@ -18,6 +18,7 @@ struct Topic {
     }
     
     mutating func addQuestion(_ question: Question) {
+        if _recentQuestions.count == 20 { return }
         _recentQuestions.append(question)
     }
 }
