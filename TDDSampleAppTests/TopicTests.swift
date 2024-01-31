@@ -36,4 +36,29 @@ final class TopicTests: XCTestCase {
     func testForAListOfQuestions() throws {
         XCTAssertNotNil(topic.recentQuestions)
     }
+    
+    func testForInitiallyEmptyQuestionList() throws {
+        XCTAssertEqual(topic.recentQuestions().count, 0, "No questions added yet, count should be zero")
+    }
+    
+    func testAddingAQuestionToTheList() throws {
+        let question = Question(date: Date(), title: "", score: 42)
+        topic.addQuestion(question)
+        XCTAssertEqual(topic.recentQuestions().count, 1, "Add a question, and the count of questions should go up")
+    }
+    
+    func testQuestionsAreListedChronologically() throws {
+        
+        let q1 = Question(date: Date.distantPast, title: "", score: 0)
+        let q2 = Question(date: Date.distantFuture, title: "", score: 1)
+        
+        topic.addQuestion(q2)
+        topic.addQuestion(q1)
+        
+        let questions = topic.recentQuestions()
+        let firstQuestion = questions[0]
+        let secondQuestion = questions[1]
+        
+        XCTAssertTrue(firstQuestion.date < secondQuestion.date, "The later date should appear first in the list")
+    }
 }
