@@ -11,7 +11,12 @@ import XCTest
 @MainActor
 final class TopicTests: XCTestCase {
     func testThatTopicExists() throws {
-        let topic = Topic()
+        let topic = Topic(name: "")
         XCTAssertNotNil(topic)
+    }
+    
+    func testThatTopicCanBeNamed() throws {
+        let namedTopic = Topic(name: "iPhone")
+        XCTAssertEqual(namedTopic.name, "iPhone", "the topic should have the name I gave it")
     }
 }

@@ -8,5 +8,5 @@
 import Foundation
 
 struct Topic {
-    
+    let name: String
 }
