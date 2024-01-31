@@ -13,7 +13,8 @@
 		068DC0282B62F0AA00DE3F70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 068DC0272B62F0AA00DE3F70 /* Preview Assets.xcassets */; };
 		068DC04C2B62FC4700DE3F70 /* MainEntryPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068DC04B2B62FC4600DE3F70 /* MainEntryPoint.swift */; };
 		068DC04E2B62FDE900DE3F70 /* TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068DC04D2B62FDE900DE3F70 /* TestApp.swift */; };
-		068DC0502B63074700DE3F70 /* PlaceholderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068DC04F2B63074700DE3F70 /* PlaceholderTests.swift */; };
+		06ADAA3D2B6A240500E88F9B /* TopicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ADAA3C2B6A240500E88F9B /* TopicTests.swift */; };
+		06ADAA3F2B6A24C800E88F9B /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ADAA3E2B6A24C800E88F9B /* Topic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,8 @@
 		068DC04A2B62F69900DE3F70 /* TDDSampleAppTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TDDSampleAppTests.xctestplan; sourceTree = "<group>"; };
 		068DC04B2B62FC4600DE3F70 /* MainEntryPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainEntryPoint.swift; sourceTree = "<group>"; };
 		068DC04D2B62FDE900DE3F70 /* TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApp.swift; sourceTree = "<group>"; };
-		068DC04F2B63074700DE3F70 /* PlaceholderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderTests.swift; sourceTree = "<group>"; };
+		06ADAA3C2B6A240500E88F9B /* TopicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicTests.swift; sourceTree = "<group>"; };
+		06ADAA3E2B6A24C800E88F9B /* Topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				068DC0262B62F0AA00DE3F70 /* Preview Content */,
 				068DC04B2B62FC4600DE3F70 /* MainEntryPoint.swift */,
 				068DC04D2B62FDE900DE3F70 /* TestApp.swift */,
+				06ADAA3E2B6A24C800E88F9B /* Topic.swift */,
 			);
 			path = TDDSampleApp;
 			sourceTree = "<group>";
@@ -100,7 +103,7 @@
 		068DC0302B62F0AA00DE3F70 /* TDDSampleAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				068DC04F2B63074700DE3F70 /* PlaceholderTests.swift */,
+				06ADAA3C2B6A240500E88F9B /* TopicTests.swift */,
 			);
 			path = TDDSampleAppTests;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				068DC04C2B62FC4700DE3F70 /* MainEntryPoint.swift in Sources */,
+				06ADAA3F2B6A24C800E88F9B /* Topic.swift in Sources */,
 				068DC04E2B62FDE900DE3F70 /* TestApp.swift in Sources */,
 				068DC0232B62F0A900DE3F70 /* ContentView.swift in Sources */,
 				068DC0212B62F0A900DE3F70 /* TDDSampleAppApp.swift in Sources */,
@@ -217,7 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				068DC0502B63074700DE3F70 /* PlaceholderTests.swift in Sources */,
+				06ADAA3D2B6A240500E88F9B /* TopicTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
