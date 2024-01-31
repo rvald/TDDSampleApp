@@ -10,7 +10,9 @@ import XCTest
 
 @MainActor
 final class QuestionTests: XCTestCase {
-    func testZero() throws {
-        
+    func testQuestionHasADate() throws {
+        let question = Question()
+        let testDate = Date()
+        XCTAssertEqual(question.date, testDate, "Question needs to provide a date")
     }
 }
