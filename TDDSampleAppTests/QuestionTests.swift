@@ -33,4 +33,8 @@ final class QuestionTests: XCTestCase {
     func testQuestionsKeepsScore() throws {
         XCTAssertEqual(question.score, 42, "Questions need a numeric score")
     }
+    
+    func testQuestionHasATitle() throws {
+        XCTAssertEqual(question.title, "Do iPhones also dream of electric sheep?", "Question should know its title")
+    }
 }
