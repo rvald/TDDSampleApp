@@ -15,9 +15,11 @@ final class QuestionTests: XCTestCase {
     var testDate: Date!
     
     override func setUp() {
-        question = Question(title: "Do iPhones also dream of electric sheep?",
-                            score: 42)
         testDate = Date()
+        question = Question(date: testDate,
+                            title: "Do iPhones also dream of electric sheep?",
+                            score: 42)
+        
     }
     
     override func tearDown() {
@@ -28,4 +30,7 @@ final class QuestionTests: XCTestCase {
         XCTAssertEqual(question.date, testDate, "Question needs to provide a date")
     }
     
+    func testQuestionsKeepsScore() throws {
+        XCTAssertEqual(question.score, 42, "Questions need a numeric score")
+    }
 }

@@ -8,7 +8,7 @@
 import Foundation
 
 struct Question {
-    let date: Date = Date()
+    let date: Date
     let title: String
     let score: Int
 }
