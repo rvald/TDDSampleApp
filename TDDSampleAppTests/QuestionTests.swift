@@ -10,9 +10,22 @@ import XCTest
 
 @MainActor
 final class QuestionTests: XCTestCase {
+    
+    var question: Question!
+    var testDate: Date!
+    
+    override func setUp() {
+        question = Question(title: "Do iPhones also dream of electric sheep?",
+                            score: 42)
+        testDate = Date()
+    }
+    
+    override func tearDown() {
+        question = nil
+    }
+    
     func testQuestionHasADate() throws {
-        let question = Question()
-        let testDate = Date()
         XCTAssertEqual(question.date, testDate, "Question needs to provide a date")
     }
+    
 }

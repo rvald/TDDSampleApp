@@ -9,4 +9,6 @@ import Foundation
 
 struct Question {
     let date: Date = Date()
+    let title: String
+    let score: Int
 }
