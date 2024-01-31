@@ -10,4 +10,5 @@ import Foundation
 struct Topic {
     let name: String
     let tag: String
+    let recentQuestions: [String] = []
 }

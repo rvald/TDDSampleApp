@@ -32,4 +32,8 @@ final class TopicTests: XCTestCase {
     func testThatTopicHasTag() throws {
         XCTAssertEqual(topic.tag, "iPhone", "Topics need to have tags")
     }
+    
+    func testForAListOfQuestions() throws {
+        XCTAssertNotNil(topic.recentQuestions)
+    }
 }
